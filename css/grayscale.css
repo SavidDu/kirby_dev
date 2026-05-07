@@ -95,7 +95,8 @@ a:focus {
 }
 
 .navbar-custom.top-nav-collapse a {
-    color: #000;
+    color: #FFF;
+    background-color: #000;
 }
 
 .navbar-custom .nav li.active {
