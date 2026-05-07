@@ -68,7 +68,7 @@ a:focus {
     border-bottom: 1px solid rgba(0,0,0,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 .navbar-custom .navbar-brand {
@@ -93,14 +93,9 @@ a:focus {
 .navbar-custom a {
     color: #000;
 }
-.navbar-custom.top-nav-collapse a {
+/* .navbar-custom.top-nav-collapse a {
     color: #fff;
-}
-
-.navbar-custom.navbar-fixed-top a {
-    color: #FFF;
-    background-color: #000;
-}
+} */
 
 .navbar-custom .nav li.active {
     outline: nonte;
@@ -121,10 +116,6 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .navbar-custom {
-        background-color: transparent;
-    }
-    
     .navbar {
         padding: 20px 0;
         border-bottom: 1px solid rgba(0,0,0,.3);
@@ -141,6 +132,7 @@ a:focus {
     }
 
     .navbar-custom.top-nav-collapse {
+        background-color: #000;
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
