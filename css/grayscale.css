@@ -121,6 +121,10 @@ a:focus {
 }
 
 @media(min-width:767px) {
+    .navbar-custom {
+        background-color: transparent;
+    }
+    
     .navbar {
         padding: 20px 0;
         border-bottom: 1px solid rgba(0,0,0,.3);
