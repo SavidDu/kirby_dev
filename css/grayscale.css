@@ -93,9 +93,10 @@ a:focus {
 .navbar-custom a {
     color: #000;
 }
-/* .navbar-custom.top-nav-collapse a {
+
+.navbar-custom.top-nav-collapse a {
     color: #fff;
-} */
+}
 
 .navbar-custom .nav li.active {
     outline: nonte;
