@@ -5,10 +5,10 @@ baseurl: /timeline-jekyll-theme
 title: Timeline
 description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
 keywords: "jekyll, theme"
-google-tracking-id:
+# google-tracking-id:
 
 # Career Settings
 # Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
+# career-img: "img/timeline/default.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.markdown"]
