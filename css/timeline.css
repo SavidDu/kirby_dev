@@ -18,7 +18,7 @@
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
-    min-height: 50px;
+    min-height: 25px;
 }
 
 .timeline>li:before,
@@ -118,7 +118,7 @@
 
     .timeline>li {
         margin-bottom: 100px;
-        min-height: 100px;
+        min-height: 50px;
     }
 
     .timeline>li .timeline-panel {
@@ -150,7 +150,7 @@
 
 @media(min-width:992px) {
     .timeline>li {
-        min-height: 150px;
+        min-height: 75px;
     }
 
     .timeline>li .timeline-panel {
@@ -176,7 +176,7 @@
 
 @media(min-width:1200px) {
     .timeline>li {
-        min-height: 170px;
+        min-height: 85px;
     }
 
     .timeline>li .timeline-panel {
