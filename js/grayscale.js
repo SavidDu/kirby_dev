@@ -13,16 +13,13 @@
 //     }
 // });
 
-function updateNavbar() {
-    if ($(window).scrollTop() > 50) {
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
-}
-
-$(window).scroll(updateNavbar);
-$(document).ready(updateNavbar);
+});
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
