@@ -2,7 +2,7 @@
 layout: null
 title: Lower Limb in Sports 
 subtitle: Training Completion
-image: img/SEPNZ.png
+image: img/timeline/SEPNZ.png
 ---
 SEPNZ  
 2024
