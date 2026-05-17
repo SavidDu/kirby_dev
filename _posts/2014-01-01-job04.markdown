@@ -2,7 +2,7 @@
 layout: null
 title: Amputee Rehabilitation
 subtitle: Training Completion
-image: 
+image: img/PWALS.png
 ---
 Peke Waihanga Artificial Limb Service  
 
