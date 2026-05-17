@@ -124,10 +124,6 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom .navbar-toggle .icon-bar {
-    background-color: #FFFFFD;
-}
-
 .navbar-custom a {
     color: #FFFFFD;
 }
