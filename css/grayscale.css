@@ -6,14 +6,14 @@
 
 .about-image-col {
     margin-bottom: 30px;
-    padding-top: 70px;  /* pushes image down past the heading */
+    padding-top: 70px;
 }
 
 .about-image {
     width: 100%;
     max-width: 280px;
     border-radius: 4px;
-    margin: 0 auto;        /* centres it when stacked */
+    margin: 0 auto; 
 }
 
 .about-text-col {
@@ -22,20 +22,20 @@
 
 @media (max-width: 767px) {
     .about-text-col {
-        padding-left: 15px;  /* back to Bootstrap default on mobile */
+        padding-left: 15px; 
         text-align: center;
     }
     .about-image-col {
-        padding-top: 0;  /* reset on mobile when stacked */
+        padding-top: 0; 
     }
 }
 
 .timeline .timeline-heading h4 {
-    margin-bottom: 5px;   /* gap between title and subtitle */
+    margin-bottom: 5px; 
 }
 
 .timeline .timeline-heading h4.subheading {
-    margin-bottom: 15px;  /* gap between subtitle and body text */
+    margin-bottom: 15px; 
 }
 
 body {
