@@ -162,9 +162,10 @@ a:focus {
         border-bottom: 1px solid rgba(0,0,0,.3);
         letter-spacing: 1px;
         background: #2274ab; /* changed #000 */ 
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
+        transition: background .1s ease-in-out,padding .1s ease-in-out;
+}
     }
 
     .top-nav-collapse {
