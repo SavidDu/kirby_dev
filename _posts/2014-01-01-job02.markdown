@@ -2,6 +2,6 @@
 layout: null
 title: Member of PNZ
 subtitle:
-image: 
+image: img/PZN.png
 ---
 2022 - 2025
