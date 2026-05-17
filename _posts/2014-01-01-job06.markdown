@@ -2,6 +2,6 @@
 layout: null
 title: Strength and Conditioning level 1
 subtitle: Training Completion
-image: 
+image: img/ASCA.png
 ---
 2025
