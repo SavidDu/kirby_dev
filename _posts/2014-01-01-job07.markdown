@@ -2,6 +2,6 @@
 layout: null
 title: Member of APA
 subtitle:
-image: 
+image: img/APA.png
 ---
 2025 - Present
