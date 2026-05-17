@@ -2,7 +2,7 @@
 layout: null
 title: Bachelor of Physiotherapy (BPhty) with Distinction 
 subtitle: Training Completion
-image: img/UOO.jpg
+image: img/timeline/UOO.jpg
 ---
 University of Otago
 2022
