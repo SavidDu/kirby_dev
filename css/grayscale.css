@@ -119,6 +119,12 @@ a:focus {
     color: #FFFFFD;
 }
 
+.navbar-custom .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #FFFFFD;
+}
+
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
