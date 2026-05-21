@@ -165,7 +165,6 @@ a:focus {
         -webkit-transition: background .1s ease-in-out,padding .1s ease-in-out;
         -moz-transition: background .1s ease-in-out,padding .1s ease-in-out;
         transition: background .1s ease-in-out,padding .1s ease-in-out;
-}
     }
 
     .top-nav-collapse {
