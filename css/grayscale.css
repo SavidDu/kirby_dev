@@ -99,7 +99,7 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid #ff2274ab; 
+    border-bottom: 1px solid #2274abff; 
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #2274ab;
@@ -159,7 +159,7 @@ a:focus {
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
-        border-bottom: 1px solid #ff2274ab; 
+        border-bottom: 1px solid #2274abff; 
         letter-spacing: 1px;
         /* changed #000 */ 
         background: #2274ab; 
@@ -176,7 +176,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         background-color: #2274ab; /* changed #000 */ 
-        border-bottom: 1px solid #ff2274ab; 
+        border-bottom: 1px solid #2274abff; 
     }
 }
 
