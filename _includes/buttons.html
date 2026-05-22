@@ -65,7 +65,7 @@
         <div class="links-grid">
           {% assign sorted_links = site.links | sort: 'order' %}
           {% for link in sorted_links %}
-          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" class="btn-link-item">
+          <a href="{{ link.href }}" target="_blank" rel="noopener noreferrer" class="btn-link-item">
             {% if link.icon %}
             <i class="fa {{ link.icon }}" aria-hidden="true"></i>
             {% endif %}
