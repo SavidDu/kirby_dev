@@ -37,9 +37,18 @@
 	      <div class="row">
 	          <div class="col-lg-8 col-lg-offset-2">
 	            {{ page.content | markdownify }}
+	            {% assign sorted_links = site.links | sort: "order" %}
 	            <ul class="list-inline">
-	                {% for link in page.links %}
-	                <li><a href="{{ link.url }}" class="btn btn-default btn-lg">{{ link.title }}</a></li>
+	                {% for link in sorted_links %}
+	                <li>
+	                    <a href="{{ link.url }}" class="btn btn-default btn-lg">
+	                        <i class="fa {{ link.icon }} fa-fw"></i>
+	                        <span>{{ link.title }}</span>
+	                        {% if link.description %}
+	                        <small class="btn-description">{{ link.description }}</small>
+	                        {% endif %}
+	                    </a>
+	                </li>
 	                {% endfor %}
 	            </ul>
 	          </div>
