@@ -10,6 +10,7 @@
 	{% include header.html %}
 
   {% for page in site.pages %}
+	{% if page.published == false %}{% continue %}{% endif %}
     {% if page.section-type == "default" %}
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
@@ -21,13 +22,23 @@
       </section>
 	{% elsif page.section-type == "about" %}
 	  <section id="{{ page.title }}" class="container content-section text-center">
-	    <div class="row">
+	    <div class="row about-row">
 	      <div class="col-sm-4 col-lg-3 col-lg-offset-1 about-image-col">
-	        <img src="{{ site.baseurl }}/{{ page.image }}" 
+	        <img src="{{ site.baseurl }}/{{ page.image }}"
 	             class="img-responsive about-image" alt="{{ page.title }}">
 	      </div>
 	      <div class="col-sm-8 col-lg-7 text-left about-text-col">
 	        {{ page.content | markdownify }}
+	
+	        {% for company in page.companies %}
+	        <div class="about-company">
+	          <h3 class="about-company-name">{{ company.name }}</h3>
+	          {% if company.role %}
+	          <p class="about-company-role">{{ company.role }}</p>
+	          {% endif %}
+	          {{ company.body | markdownify }}
+	        </div>
+	        {% endfor %}
 	      </div>
 	    </div>
 	  </section>
