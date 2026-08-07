@@ -12,7 +12,7 @@
     left: 20px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #2274ab;
+    background-color: var(--color-brand);
 }
 
 .timeline>li {
@@ -60,11 +60,11 @@
     width: 40px;
     height: 40px;
     margin-left: 0;
-    border: 3px solid #2274ab;
+    border: 3px solid var(--color-brand);
     border-radius: 100%;
     text-align: center;
-    color: #fff;
-    background-color: #2274ab;
+    color: var(--color-light);
+    background-color: var(--color-brand);
 }
 
 .timeline>li .timeline-image h4 {
