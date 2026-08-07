@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-t-image-col {
+.about-image-col {
     margin-bottom: 30px;
     padding-top: 70px;
 }
@@ -13,20 +13,56 @@ t-image-col {
     width: 100%;
     max-width: 280px;
     border-radius: 4px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .about-text-col {
     padding-left: 20px;
 }
 
+/* Individual company blocks within the About section */
+.about-company {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.about-company-name {
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+
+.about-company-role {
+    margin: 0 0 15px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.about-company p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive: stack photo and both company blocks into one full-width column */
 @media (max-width: 767px) {
+    .about-row .about-image-col,
+    .about-row .about-text-col {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .about-text-col {
-        padding-left: 15px; 
+        padding-left: 15px;
+        padding-right: 15px;
         text-align: center;
     }
     .about-image-col {
-        padding-top: 0; 
+        padding-top: 0;
+    }
+    .about-company {
+        margin-top: 30px;
+        padding-top: 25px;
     }
 }
 
